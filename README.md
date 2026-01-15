@@ -25,6 +25,7 @@ target_return (regression / evaluation)
 
 Project Structure
 stock-price-predictor/
+
 ├─ README.md
 
 ├─ requirements.txt
