@@ -11,7 +11,7 @@ ROOT = Path(__file__).resolve().parents[1]          # project root
 MODELS_DIR = ROOT / "models"
 MODELS_DIR.mkdir(exist_ok=True)
 
-# ---- Dummy placeholders (replace with your real pipeline once this runs) ----
+# ---- Dummy placeholders (replace with real pipeline once this runs) ----
 def load_data():
     """
     TEMP: This is just to prove train.py runs.

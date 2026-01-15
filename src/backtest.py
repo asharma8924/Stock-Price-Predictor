@@ -172,7 +172,7 @@ def main():
     # 3) Add technical features
     panel = add_technical_features(panel)
 
-    # 4) If you don't have sentiment for older years, set defaults (works for demo)
+    # 4) set defaults (works for demo)
     #    Later, you can merge your real sentiment dataframe instead.
     if "sentiment_mean" not in panel.columns:
         panel["sentiment_mean"] = 0.0
